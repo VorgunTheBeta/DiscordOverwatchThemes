@@ -629,6 +629,8 @@ a:link {
 .message-group .edit-message .channel-textarea-inner {
     border-color: #F5B671;
 }
+.edit-container-outer .avatar-large { display: none; }
+.edit-container-outer {padding-left: 60px;}
 .channels-wrap {
     background: rgba(148, 78, 59, 0.13)!important;
 }
