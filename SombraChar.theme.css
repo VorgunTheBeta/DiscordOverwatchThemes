@@ -672,7 +672,8 @@ a:link {
     from {border-color: #535559;}
     to {border-color: Lavender;}
 }
-
+.edit-container-outer .avatar-large { display: none; }
+.edit-container-outer {padding-left: 60px;}
 /* Profile */
 .avatar-profile {
     width: 128px;
