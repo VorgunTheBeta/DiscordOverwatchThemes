@@ -226,17 +226,17 @@ a:link {
 
 /* Pinning/Mentions */
 .theme-dark .themed-popout {
-    background-color: rgba(94, 73, 158, 0.9);
-    border: 1px solid rgba(94, 73, 158, 0.9);
+    background-color: rgba(148, 78, 59, 0.13);
+    border: 1px solid rgba(148, 78, 59, 0.13);
     box-shadow: 0 0 1px #ce988c,0 1px 4px #F5B671;
 }
 .theme-dark .themed-popout .header {
-    background-color: rgba(148, 134, 226, 0.9);
-    box-shadow: 0 2px 3px 0 rgba(94, 73, 158, 0.9);
+    background-color: rgba(148, 78, 59, 0.9);
+    box-shadow: 0 2px 3px 0 rgba(148, 78, 59, 0.9);
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
     border-color: #F5B671;
-    background-color: rgba(134, 119, 212, 0.64);
+    background-color: rgba(245, 182, 113, 0.64);
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
     box-shadow: none;
@@ -244,18 +244,18 @@ a:link {
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
     background-color: #F5B671;
-    color: rgba(94, 73, 158, 0.9);
+    color: rgba(245, 182, 113, 0.9);
 }
 
 /* Uploading */
 .upload-modal {
-    background-color: rgba(73, 61, 134, 0.65);
+    background-color: rgba(245, 182, 113, 0.65);
 }
 .upload-modal .footer {
-    background-color: rgba(111, 89, 199, 0.58);
+    background-color: rgba(245, 182, 113, 0.58);
 }
 .upload-modal .inner {
-    border: 2px dashed rgb(111, 99, 171);
+    border: 2px dashed rgb(245, 182, 113);
 }
 .upload-modal .footer .button {
     background-color: #F5B671;
@@ -270,10 +270,10 @@ a:link {
 }
 .upload-modal .inner .file .icon.image {
     border: 2px solid #F5B671;
-    box-shadow: 0 2px 8px rgb(115, 107, 177);
+    box-shadow: 0 2px 8px rgb(245, 182, 113);
 }
 .upload-drop-modal .bgScale {
-    background: rgba(154, 133, 239, 0.6);
+    background: rgba(245, 182, 113, 0.6);
 }
 .upload-drop-modal .inner {
     border: 2px dashed #F5B671;
@@ -593,7 +593,7 @@ a:link {
 }
 .channel-textarea-inner {
     border: 2px solid #F5B671!important;
-    background: rgba(88, 61, 123, 0.6) !important;
+    background: rgba(245, 182, 113, 0.4) !important;
 }
 .channel.channel-text.unread:not(.selected):not(.channel-muted):before {
     background: #F5B671;
@@ -639,9 +639,12 @@ a:link {
 .guild-channels .channel-text:hover:not(.unread):before {
     border-left: 4px solid #F5B671;
 }
+.guild-channels .channel-text.channel-muted:not(.selected) span{
+	opacity: .6!important;
+}
 .guild-channels .channel-text:hover a {
     color: #fff;
-    background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 90%, rgba(0, 0, 0, 0)) !important;
+    background: -webkit-linear-gradient(left, rgba(206, 152, 140, 0.6) 50%, rgba(140, 89, 97, 1)) !important;
 }
 .guilds-add:hover {
     animation: color_change 1s infinite alternate;
@@ -1393,8 +1396,8 @@ a:link {
     background-color: #ce988c;
 }
 .channel-members {
-    background: rgba(50, 42, 88, 0.64)!important;
-    box-shadow: inset 10px 5px 5px -6px rgb(76,65,109);
+    background: rgba(148, 78, 59, 0.13)!important;
+    box-shadow: inset 10px 5px 5px -6px rgb(148,78,59);
 }
 .channel-members .member:hover {
     background: rgba(255, 255, 255, 0.07) !important;
@@ -1564,18 +1567,18 @@ a:link {
 .bd-customcss-innerpane, 
 .voice-settings, 
 .radio-inner {
-    background: rgba(93, 86, 154, 0.6);
+    background: rgba(148, 78, 59, 0.13)!important;
 }
 .settings .settings-inner,
 .scroller.settings-wrapper.settings-panel {
-    background: rgba(116, 105, 195, 0.58);
+    background: rgba(148, 78, 59, 0.45);
 }
 .Select-value {
     background: rgba(101, 99, 183, 0.84);
 }
 .settings .settings-actions {
     border-top: 1px solid #F5B671!important;
-    background: rgba(154, 133, 239, 0.65);
+    background: rgba(148, 78, 59, 0.45);
 }
 .settings-section.control-groups {
     background-color: rgba(109, 97, 170, 0.7);
@@ -1586,7 +1589,7 @@ a:link {
 .form-header, 
 .form-inner, 
 .form-actions {
-    background: rgba(126, 103, 218, 0.6) !important;
+    background: rgba(148, 78, 59, 0.13)!important;
 }
 .form .form-actions {
     border-top: 1px solid #F5B671;
@@ -1618,14 +1621,14 @@ a:link {
     color: #F5B671;
 }
 .tab-bar.SIDE {
-    background: rgba(154, 133, 239, 0.6);
+    background: rgba(149, 78, 59, 0.6);
 }
 .tab-bar.SIDE .tab-bar-item:before {
     border-left: 4px solid #F5B671;
 }
 .tab-bar.SIDE .tab-bar-item.selected, 
 .tab-bar.SIDE .tab-bar-item:hover {
-    background: rgba(154, 133, 239, 0.6);
+    background: rgba(149, 78, 59, 0.6);
 }
 .tab-bar.SIDE .tab-bar-item {
     color: #fff !important;
@@ -1653,7 +1656,7 @@ a:link {
     box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: rgba(173, 153, 255, 0.51);
+    background: rgba(148, 78, 59, 0.45);
     border: 2px solid #F5B671;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -1719,10 +1722,6 @@ a:link {
 .user-settings-modal a {
     color: #F5B671;
 }
-.user-settings-modal .settings-wrapper,
-.user-settings-modal .voice-settings.element {
-    background: rgba(154, 133, 239, 0.11);
-}
 .user-settings-modal .voice-settings {
     background: transparent  !important;
 }
@@ -1736,7 +1735,7 @@ a:link {
     color: rgba(222, 222, 222, 0.59);
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind, .account-warning {
-    background-color: rgba(185, 173, 255, 0.3) !important;
+    background-color: rgba(148, 78, 59, 0.3) !important;
     border: 1px solid #F5B671!important;
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind:hover {
@@ -1803,7 +1802,7 @@ a:link {
     background: #ce988c;
 }
 .settings-connections-wrapper .authed-app {
-    background: rgba(155, 140, 236, 0.44);
+    background: rgba(148, 78, 59, 0.44);
     border: 1px solid #F5B671;
 }
 .settings-connections-wrapper .authed-app .details .header {
@@ -1901,12 +1900,12 @@ a:link {
     background: transparent !important;
 }
 .friends-header {
-    background: rgba(50, 42, 88, 0.61)!important;
+    background: rgba(148, 78, 59, 0.23)!important;
 }
 .friends-table {
-    background: rgba(50, 42, 88, 0.53)!important;
+    background: rgba(148, 78, 59, 0.13)!important;
     margin-top: 0 !important;
-    box-shadow: inset 9px 10px 5px -6px rgb(76,65,109);
+    box-shadow: inset 9px 10px 5px -6px rgb(148,78,59);
 }
 .friends-table .friends-table-body {
     padding-top: 20px !important;
@@ -1933,11 +1932,11 @@ a:link {
 .private-channels .channel.selected, 
 .private-channels .search-result.selected, 
 .private-channels .search-result:hover {
-    background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 85%, rgba(46, 49, 54, 0)) !important;
+    background: -webkit-linear-gradient(left, rgba(206, 152, 140, 0.6) 50%, rgba(140, 89, 97, 1)) !important;
 }
 .channel.channel-text:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
-    background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 85%, rgba(46, 49, 54, 0)) !important;
+    background: -webkit-linear-gradient(left, rgba(206, 152, 140, 0.6) 50%, rgba(140, 89, 97, 1)) !important;
 }
 #friends .btn {
     background-color: #F5B671;
