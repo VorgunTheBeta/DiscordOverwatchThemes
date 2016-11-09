@@ -735,6 +735,8 @@ a:link {
     background: rgba(127, 127, 224, 0.75);
     color: #FFFFFF;
 }
+.edit-container-outer .avatar-large { display: none; }
+.edit-container-outer {padding-left: 60px;}
 #user-profile-modal .guilds .guild {
     color: rgba(255, 255, 255, 0.82);
     padding: 5px 20px;
