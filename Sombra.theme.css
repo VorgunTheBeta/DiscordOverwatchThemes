@@ -770,10 +770,6 @@ a:link {
 
 
 /* Emoji */
-.channel-textarea-emoji>.sprite-item,
-.channel-textarea-emoji.popout-open .sprite-item {
-  background-image:url(https://a.pomf.cat/iyqmjn.png)!important;
-}
 .emoji-picker .categories .item.selected {
     border-bottom-color: #9C0505;
 }
