@@ -383,7 +383,8 @@ a:link {
 .guilds-wrapper .guild-separator:after {
     background: #feabe6;
 }
-
+.edit-container-outer .avatar-large { display: none; }
+.edit-container-outer {padding-left: 60px;}
 /* Left Side Settings */
 .account {
     border-top: 3px solid #feabe6!important;
