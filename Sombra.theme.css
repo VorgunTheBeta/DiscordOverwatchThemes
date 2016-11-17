@@ -919,13 +919,6 @@ a:link {
 .user-popout .user-popout-options .btn:hover {
     border: 1px solid #aa48d1;
 }
-.user-popout .header {
-    background: #8888e4 url(https://a.pomf.cat/gqisqz.jpg);
-    background-size: 138%;
-    background-repeat: no-repeat;
-    background-position-y: 99%;
-    background-position-x: 61%;
-}
 .user-popout .username-wrapper.has-nickname .username {
     color: #e9a4b5;
 }
