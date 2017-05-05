@@ -1,3 +1,5 @@
+//META{"name":"D.Va v2","description":"Overwatch D.Va theme.","author":"VorgunTheBeta","version":"2.0"}*//
+
 
 /*
 Hex color for everything: #feabe6
@@ -34,7 +36,7 @@ Hex color for texts: #ee4bb5
 }
 
 .callout-backdrop {
-    opacity:1 !important;
+    opacity:0.65 !important;
     background: url("https://images5.alphacoders.com/659/659055.jpg");
     background-size: cover;
     background-position: center;
@@ -2765,6 +2767,15 @@ z-index:1!important;
 div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
 margin-left:-150px
 }
+.theme-dark .search-results-wrap,
+.theme-dark .search-results-wrap .search-header,
+.theme-dark .search-results-wrap .channel-separator .channel-name,
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message .hit,
+.theme-dark .search-results-wrap .search-result .hit{
+  z-index:1!important;
+  background: rgba(50, 42, 88, 0.64)!important;
+}
 /*end of collapsing user list*/
+
 
 
