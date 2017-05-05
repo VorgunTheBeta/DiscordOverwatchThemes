@@ -6,6 +6,7 @@ Hex color for everything: #2d4691
 Hex color for hovering: #80a9c5
 Hex color for texts: #ee4bb5
 Hex colour for channel text: #0d2bff
+Hex colour for unread blip: #08257d
 code for friends table: rgba(92, 152, 195, 0.35)!important
 code for the chat stuff: rgba(92, 152, 195, 0.35)!important
 code for chat box: rgba(61, 80, 123, 0.6) !important
@@ -361,17 +362,17 @@ a:link {
 .guilds li.active .guild-inner,
 .guilds li:hover .guild-inner {
     border-radius: 15px;
-    background: #2d4691;
+    background: #08257d;
 }
 .guild-channels ul .channel-voice-states li.speaking .avatar-small {
-    background-color: #2d4691;
+    background-color: #08257d;
     border: 2px solid #43b581;
 }
 .guilds li.active .guild-inner:before {
-    background: #2d4691;
+    background: #08257d;
 }
 .guilds li.unread .guild-inner:before {
-    background: #2d4691;
+    background: #08257d;
 }
 .guilds-add {
     color: transparent !important;
