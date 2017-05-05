@@ -46,7 +46,7 @@ mech red: #b12b27
 }
 
 .callout-backdrop {
-    opacity:1 !important;
+    opacity:0.65 !important;
     background: url("https://i.imgur.com/G4qHZSH.jpg");
     background-size: cover;
     background-position: center;
@@ -2782,4 +2782,13 @@ z-index:1!important;
 div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
 margin-left:-150px
 }
+.theme-dark .search-results-wrap,
+.theme-dark .search-results-wrap .search-header,
+.theme-dark .search-results-wrap .channel-separator .channel-name,
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message .hit,
+.theme-dark .search-results-wrap .search-result .hit{
+  z-index:1!important;
+  background: rgba(92, 152, 195, 0.35)!important;
+}
+
 /*end of collapsing user list*/
