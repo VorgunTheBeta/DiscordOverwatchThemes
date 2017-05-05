@@ -6,7 +6,6 @@ Hex color for everything: #2d4691
 Hex color for hovering: #80a9c5
 Hex color for texts: #ee4bb5
 Hex colour for channel text: #0d2bff
-Hex colour for unread blip: #08257d
 code for friends table: rgba(92, 152, 195, 0.35)!important
 code for the chat stuff: rgba(92, 152, 195, 0.35)!important
 code for chat box: rgba(61, 80, 123, 0.6) !important
@@ -412,7 +411,7 @@ a:link {
     background: #2d4691;
 }
 .guilds-wrapper .guilds .guild.unread:before {
-    background: #2d4691;
+    background: #08257d;
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
     background-color: #2d4691;
